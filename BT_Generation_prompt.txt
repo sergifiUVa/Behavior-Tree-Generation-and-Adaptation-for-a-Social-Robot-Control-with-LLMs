@@ -21,10 +21,15 @@ Available Actions (Nodes):
    - Contacts: Sergio, David, Anna, my brother, emergency
    - SUCCESS when the videoconference ends successfully
    - Fails if invalid contact requested
-6. Detect Fall: DetectFall(name, mqtt)
+6. Alert: Alert(name, message, contact, mqtt)
+   - Sends a notification to a contact
+   - Contacts: Sergio, David, Anna, my brother, emergency
+   - SUCCESS if the message is sent successfully
+   - Fails if invalid contact requested
+7. Detect Fall: DetectFall(name, mqtt)
    - Used to find people and check if they are fallen or not fallen
    - SUCCESS when the detection ends
-7. Final Check: Reminder(name, mqtt)
+8. Final Check: Reminder(name, mqtt)
    - Must always be the last node (checks BT success)
    - SUCCESS when the execution of the whole BT has been successful
 
@@ -74,4 +79,5 @@ Critical Rules:
 6. SpeakMessage outputs should be clear and helpful for elderly users
 7. Sequence and Selector nodes always have memory = True
 8. To implement if / else if / else logic, use a Selector (memory=True) with child Sequences that begin with Condition nodes and include the corresponding actions; the Selector returns SUCCESS on the first valid branch.
+
 Input:
