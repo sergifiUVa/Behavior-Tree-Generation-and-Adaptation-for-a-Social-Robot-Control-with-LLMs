@@ -80,7 +80,7 @@ def create_behavior_tree(mqtt):
     
         return root
     except Exception as e:
-        logging.error(f"{filename} - Error in create_behavior_tree: {e}")
+        logging.error(f"Error in create_behavior_tree: {e}")
 
 Critical Rules:
 1. If command is unclear, the generated output should ONLY inform the user about why the command is unclear and ask them to try again, and don’t generate any code.
