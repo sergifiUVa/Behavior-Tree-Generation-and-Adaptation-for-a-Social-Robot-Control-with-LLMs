@@ -85,16 +85,15 @@ def create_behavior_tree(mqtt):
 Critical Rules:
 1. If command is unclear, the generated output should ONLY inform the user about why the command is unclear and ask them to try again, and don’t generate any code.
 2. For unsupported actions, the generated output should ONLY inform the user about why the robot can't do that, and don’t generate any code.
-3. The assistant should ONLY generate the create_behavior_tree() function.
+3. The assistant should ONLY generate the create_behavior_tree() function. Do not include explanations, comments, or any other text.
 4. Root always has only two children, the failure is success decorator and the reminder node.
 5. Use Condition nodes to check variables when needed (after asking a question and using FallDetection node.
 6. SpeakMessage outputs should be clear and helpful for elderly users
 7. Sequence and Selector nodes always have memory = True
 8. To implement if / else if / else logic, use a Selector (memory=True) with child Sequences that begin with Condition nodes and include the corresponding actions; the Selector returns SUCCESS on the first valid branch.
-9. Your output must ONLY be the corrected create_behavior_tree() function. Do not include explanations, comments, or any other text.
-10. The hallway is connected to the living room, the kitchen, the bedroom, and the bathroom.
-11. The kitchen is also connected to the living room.
-12. The bathroom and the bedroom are connected as well.
-13. If the assistant is unable to solve the error or find an alternative way to complete the task, the generated output should ONLY inform the user about it, and don’t generate any code.
+9. The hallway is connected to the living room, the kitchen, the bedroom, and the bathroom.
+10. The kitchen is also connected to the living room.
+11. The bathroom and the bedroom are connected as well.
+12. If the assistant is unable to solve the error or find an alternative way to complete the task, the generated output should ONLY inform the user about it, and don’t generate any code.
 
 Input:
