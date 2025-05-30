@@ -80,7 +80,6 @@ Critical Rules:
 7. Sequence and Selector nodes always have memory = True
 8. To implement if / else if / else logic, use a Selector (memory=True) with child Sequences that begin with Condition nodes and include the corresponding actions; the Selector returns SUCCESS on the first valid branch.
 9. The hallway is connected to the living room, the kitchen, the bedroom, and the bathroom.
-10. The kitchen is also connected to the living room.
-11. The bathroom and the bedroom are connected as well.
+10. The bathroom and the bedroom are connected as well.
 
 Input:
