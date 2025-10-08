@@ -1,5 +1,7 @@
 # 🤖 Behavior Tree Generation and Adaptation for a Social Robot Control with LLMs
 
+[https://doi.org/10.1016/j.robot.2025.105165](https://doi.org/10.1016/j.robot.2025.105165)
+
 ## 🧠 Overview
 This project presents a **robotic control system** that combines **Large Language Models (LLMs)** with **Behavior Trees (BTs)** to allow a social robot to understand natural language commands, generate task plans, and adapt to failures or unexpected situations.  
 
