@@ -65,7 +65,7 @@ Each module has a specific role in ensuring robust, adaptive behavior generation
 
 2. **Unzip the detection models**  
    The detection models are included in this repository.  
-   Simply **unzip the model directory** and place its contents **in the same folder as the other system files**.
+   Simply **unzip the model directory** and place the "Detection" folder **in the same folder as the other system files**.
 
 3. **Configure your connections**  
    Edit the configuration file to include:
@@ -76,11 +76,18 @@ Each module has a specific role in ensuring robust, adaptive behavior generation
    Example:
    ```json
    {
-     "mqtt_host": "localhost",
-     "mqtt_port": 1883,
-     "chatgpt_api_key": "YOUR_API_KEY",
-     "robot_topic": "temi/actions"
-   }
+  "openai_api": {
+    "OPENAI_API_KEY": "your_API_key",
+    "CHATGPT_URL": "https://api.openai.com/v1/chat/completions"
+  },
+  "mqtt": {
+    "broker": "your_broker",
+    "port": 1884,
+    "username": "your_username",
+    "password": "your_password"
+  }
+}
+
    ```
 
 4. **Run all modules simultaneously**  
@@ -126,3 +133,9 @@ Part of the **ROSOGAR** and **EIAROB** research projects.
 > *Based on the paper:*  
 > **Merino-Fidalgo, S., Sánchez-Girón, C., Zalama, E., Gómez-García-Bermejo, J., Duque-Domingo, J. (2025).**  
 > *Behavior Tree Generation and Adaptation for a Social Robot Control with LLMs.*
+
+---
+
+## 📬 Contact
+
+For questions, collaborations, or further information about this project, feel free to contact **Sergio Merino Fidalgo** at [sergio.merino.fidalgo@uva.es](mailto:sergio.merino.fidalgo@uva.es).
