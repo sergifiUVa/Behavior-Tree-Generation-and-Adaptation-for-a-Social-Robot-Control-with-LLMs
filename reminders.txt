@@ -1,0 +1,8 @@
+If you want to play a game, just say: “Hey Temi, I want to play.”
+If you want to exercise, just say: “Hey Temi, I want to exercise.”
+If you want to call someone, just say: “Hey Temi, video conference with...” and then the person’s name.
+If you want the robot to go somewhere, just say: “Hey Temi, go to...” and then the place’s name.
+If you want me to follow you, press the button on top of my screen.
+If you want to do something else, I’ll be happy to help.
+I hope you have a great day!
+Remember to drink water regularly.

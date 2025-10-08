@@ -1,0 +1,35 @@
+Waits_and_Times
+Answer_wait: 15
+Max_speak_time: 15
+No_interaction_time_until_plan_end: 60
+Pause_time_when_interacting_during_movement: 2
+Time_to_reach_destination: 120
+Max_pause_time: 30
+Max_call_time: 300
+Person_search_time_in_detect_module: 10
+
+Repetitions_and_Others
+Angle_when_taking_picture: 0
+Volume: 5
+Emergency_volume: 7
+Movement_speed: medium
+Search_movement_speed: slow
+Fall_detection_models: 1
+
+Contacts
+Emergency_contact: Sergio
+
+Files
+Reminders_file: reminders.txt
+
+Room_locations
+bedroom: ubidormitorio
+kitchen: ubicocina
+livingroom: ubisalon
+hallway: ubipasillo
+diningroom: ubicomedor
+porch: ubiporche
+study: ubipasillo
+
+Neural_models
+detection_model: modelo_Fall_17_05_convnext
