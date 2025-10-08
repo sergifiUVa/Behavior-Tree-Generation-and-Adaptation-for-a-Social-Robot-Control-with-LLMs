@@ -75,17 +75,15 @@ Each module has a specific role in ensuring robust, adaptive behavior generation
 
    Example:
    ```python
-# Configure OpenAI API
-OPENAI_API_KEY = "your_API_key"
-CHATGPT_URL = "https://api.openai.com/v1/chat/completions"
-
-# Configure MQTT broker
-broker = "your_broker"
-port = 1884
-username = "your_username"
-password = "your_password"
-
-
+   # Configure OpenAI API
+   OPENAI_API_KEY = "your_API_key"
+   CHATGPT_URL = "https://api.openai.com/v1/chat/completions"
+   
+   # Configure MQTT broker
+   broker = "your_broker"
+   port = 1884
+   username = "your_username"
+   password = "your_password"
    ```
 
 4. **Run all modules simultaneously**  
